@@ -1,0 +1,13 @@
+block('logo')(
+    content()(function () {
+        return [
+        {
+            elem : 'pic'
+        },
+        {
+            elem : 'text',
+            content : this.ctx.content
+        }
+        ];
+    })
+);
