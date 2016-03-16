@@ -58,7 +58,7 @@ module.exports = function(config) {
                 source: '?.stylus.css',
                 target: '?.css',
                 config : {
-                    maxWidth : '1100px',
+                    maxWidth : '1170px',
                     gutter : '30px',
                     flex : 'flex'
                 }
