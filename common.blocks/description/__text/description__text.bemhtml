@@ -1,0 +1,7 @@
+block('description').elem('text')(
+    content()(function () {
+        return this.ctx.content.map(function (item) {
+            return '<p>' + item + '</p>';
+        });
+    })
+);
