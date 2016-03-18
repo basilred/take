@@ -58,6 +58,11 @@ module.exports = {
                     block : 'description',
                     content : [
                         {
+                            block : 'image',
+                            mix : [ { block : 'description', elem : 'pic' } ],
+                            url : '../../common.blocks/description/__pic/description__pic.png'
+                        },
+                        {
                             elem : 'header',
                             content : [
                                 'Start something new'
