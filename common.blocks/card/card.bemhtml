@@ -1,0 +1,8 @@
+block('card')(
+    attrs()(function () {
+        var attrs = {},
+            color = this.ctx.color;
+        color ? attrs.style = 'background-color:' + color : attrs.style = 'background-color:green';
+        return attrs;
+    })
+);
