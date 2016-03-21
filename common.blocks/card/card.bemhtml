@@ -1,8 +1,12 @@
 block('card')(
     attrs()(function () {
         var attrs = {},
-            color = this.ctx.color;
+            color = this.ctx.color,
+            url = this.ctx.url;
         color ? attrs.style = 'background-color:' + color : attrs.style = 'background-color:green';
+        if (url) {
+            attrs.style = 'background:url(' + url + ') no-repeat';
+        }
         return attrs;
     })
 );

@@ -89,7 +89,6 @@ module.exports = {
                 {
                     block : 'card',
                     color : '#f5989d',
-                    url : 'pic.jpg',
                     content : [
                         {
                             elem : 'header',
@@ -144,6 +143,7 @@ module.exports = {
                 },
                 {
                     block : 'card',
+                    url : '../../common.blocks/card/clients.jpg',
                     content : [
                         {
                             elem : 'header',
