@@ -167,6 +167,33 @@ module.exports = {
                             ]
                         }
                     ]
+                },
+                {
+                    block : 'card',
+                    color : '#bd8cbf',
+                    content : [
+                        {
+                            elem : 'header',
+                            content : 'How to shoo great'
+                        },
+                        {
+                            elem : 'text',
+                            content : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing.'
+                        },
+                        {
+                            block : 'link',
+                            mods : { pseudo : true },
+                            content : [
+                                {
+                                    block : 'card',
+                                    elem : 'link',
+                                    content : [
+                                        'Find Out more'
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }
