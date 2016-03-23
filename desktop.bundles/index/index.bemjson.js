@@ -116,7 +116,6 @@ module.exports = {
                 {
                     block : 'card',
                     color : '#615f7d',
-                    mods : { size : 'double' },
                     content : [
                         {
                             elem : 'header',
@@ -189,6 +188,93 @@ module.exports = {
                                     elem : 'link',
                                     content : [
                                         'Find Out more'
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            block : 'cards',
+            content : [
+                {
+                    block : 'card',
+                    mods : { size : 'double' },
+                    url : '../../common.blocks/card/sign.jpg',
+                    content : [
+                        {
+                            elem : 'header',
+                            content : 'Sign up & see why'
+                        },
+                        {
+                            elem : 'text',
+                            content : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing.<br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                        },
+                        {
+                            block : 'link',
+                            mods : { pseudo : true },
+                            content : [
+                                {
+                                    block : 'card',
+                                    elem : 'link',
+                                    content : [
+                                        'Get Started Now'
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    block : 'card',
+                    color : '#82ca9c',
+                    content : [
+                        {
+                            elem : 'header',
+                            content : 'Perfect pictures'
+                        },
+                        {
+                            elem : 'text',
+                            content : 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+                        },
+                        {
+                            block : 'link',
+                            mods : { pseudo : true },
+                            content : [
+                                {
+                                    block : 'card',
+                                    elem : 'link',
+                                    content : [
+                                        'Find Out more'
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    block : 'card',
+                    url : '../../common.blocks/card/start.jpg',
+                    content : [
+                        {
+                            elem : 'header',
+                            content : 'Start somthing new'
+                        },
+                        {
+                            elem : 'text',
+                            content : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing.'
+                        },
+                        {
+                            block : 'link',
+                            mods : { pseudo : true },
+                            content : [
+                                {
+                                    block : 'card',
+                                    elem : 'link',
+                                    content : [
+                                        'Get insights'
                                     ]
                                 }
                             ]
