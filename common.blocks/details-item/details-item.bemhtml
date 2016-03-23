@@ -1,0 +1,15 @@
+block('details-item')(
+    mix()(function () {
+        return [
+            {
+                block : 'row',
+                elem : 'col',
+                elemMods : { sw : 6, mw : 6, lw : 3, xlw : 3, xxlw : 3 }
+            },
+            {
+                block : 'details',
+                elem : 'item'
+            }
+        ];
+    })
+);
