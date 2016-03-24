@@ -367,6 +367,49 @@ module.exports = {
                     ]
                 }
             ]
+        },
+        {
+            block : 'power',
+            content : [
+                {
+                    block : 'row',
+                    content : [
+                        {
+                            elem : 'col',
+                            elemMods : { sw : 12, mw : 12, lw : 6 },
+                            content : [
+                                {
+                                    block : 'card',
+                                    mods : { power : true },
+                                    content : [
+                                        {
+                                            elem : 'header',
+                                            content : 'More power<br>behind every pixel.'
+                                        },
+                                        {
+                                            elem : 'text',
+                                            content : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing.<br>labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                                        },
+                                        {
+                                            block : 'link',
+                                            mods : { pseudo : true },
+                                            content : [
+                                                {
+                                                    block : 'card',
+                                                    elem : 'link',
+                                                    content : [
+                                                        'Get Started Now'
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 };
