@@ -4,7 +4,7 @@ block('details-item')(
             {
                 block : 'row',
                 elem : 'col',
-                elemMods : { sw : 6, mw : 6, lw : 3, xlw : 3, xxlw : 3 }
+                elemMods : { sw : 6, mw : 6, l : true, xl : true, xxl : true }
             },
             {
                 block : 'details',
