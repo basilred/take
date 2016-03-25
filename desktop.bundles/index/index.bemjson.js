@@ -410,6 +410,80 @@ module.exports = {
                     ]
                 }
             ]
+        },
+        {
+            block : 'reasons',
+            content : [
+                {
+                    block : 'details',
+                    content : [
+                        {
+                            elem : 'caption',
+                            mix : [ { block : 'row' } ],
+                            content : [
+                                'A look at the details'
+                            ]
+                        },
+                        {
+                            elem : 'items',
+                            mix : [ { block : 'row' } ],
+                            content : [
+                                {
+                                    block : 'details-item',
+                                    content : [
+                                        {
+                                            elem : 'caption',
+                                            content : [
+                                                'Web based'
+                                            ]
+                                        },
+                                        {
+                                            elem : 'desc',
+                                            content : [
+                                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    block : 'details-item',
+                                    content : [
+                                        {
+                                            elem : 'caption',
+                                            content : [
+                                                'Performance'
+                                            ]
+                                        },
+                                        {
+                                            elem : 'desc',
+                                            content : [
+                                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    block : 'details-item',
+                                    content : [
+                                        {
+                                            elem : 'caption',
+                                            content : [
+                                                'Clultral'
+                                            ]
+                                        },
+                                        {
+                                            elem : 'desc',
+                                            content : [
+                                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 };
