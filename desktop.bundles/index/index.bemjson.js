@@ -492,13 +492,13 @@ module.exports = {
                     block : 'cards',
                     content : [
                         {
-                            elem : 'card',
+                            block : 'card',
                             content : [
 
                             ]
                         },
                         {
-                            elem : 'card',
+                            block : 'card',
                             content : [
 
                             ]
