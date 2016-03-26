@@ -487,20 +487,72 @@ module.exports = {
         },
         {
             block : 'buying',
+            mix : [ { block : 'row' } ],
             content : [
                 {
-                    block : 'cards',
+                    block : 'buying-card',
+                    mix : [ { block : 'row', elem : 'col', elemMods : { l : true } } ],
                     content : [
                         {
-                            block : 'card',
+                            block : 'label',
                             content : [
-
+                                'legacy'
                             ]
                         },
                         {
-                            block : 'card',
+                            elem : 'caption',
                             content : [
-
+                                'Go it solo'
+                            ]
+                        },
+                        {
+                            elem : 'text',
+                            content : [
+                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                            ]
+                        },
+                        {
+                            block : 'button',
+                            text : 'buy now $9'
+                        },
+                        {
+                            block : 'icons',
+                            content : [
+                                'apple', 'win'
+                            ]
+                        }
+                    ]
+                },
+                {
+                    block : 'buying-card',
+                    mix : [ { block : 'row', elem : 'col', elemMods : { l : true } } ],
+                    content : [
+                        {
+                            block : 'label',
+                            content : [
+                                'legacy'
+                            ]
+                        },
+                        {
+                            elem : 'caption',
+                            content : [
+                                'Go it solo'
+                            ]
+                        },
+                        {
+                            elem : 'text',
+                            content : [
+                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                            ]
+                        },
+                        {
+                            block : 'button',
+                            text : 'buy now $18'
+                        },
+                        {
+                            block : 'icons',
+                            content : [
+                                'apple', 'win'
                             ]
                         }
                     ]
