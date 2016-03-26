@@ -484,6 +484,28 @@ module.exports = {
                     ]
                 }
             ]
+        },
+        {
+            block : 'buying',
+            content : [
+                {
+                    block : 'cards',
+                    content : [
+                        {
+                            elem : 'card',
+                            content : [
+
+                            ]
+                        },
+                        {
+                            elem : 'card',
+                            content : [
+
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 };
