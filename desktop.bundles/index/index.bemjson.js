@@ -496,7 +496,12 @@ module.exports = {
                         {
                             block : 'label',
                             content : [
-                                'legacy'
+                                {
+                                    elem : 'text',
+                                    content : [
+                                        'legacy'
+                                    ]
+                                }
                             ]
                         },
                         {
@@ -530,7 +535,12 @@ module.exports = {
                         {
                             block : 'label',
                             content : [
-                                'legacy'
+                                {
+                                    elem : 'text',
+                                    content : [
+                                        'legacy'
+                                    ]
+                                }
                             ]
                         },
                         {
