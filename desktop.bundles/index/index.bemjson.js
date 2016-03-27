@@ -487,82 +487,86 @@ module.exports = {
         },
         {
             block : 'buying',
-            mix : [ { block : 'row' } ],
             content : [
                 {
-                    block : 'buying-card',
-                    mix : [ { block : 'row', elem : 'col', elemMods : { l : true } } ],
+                    block : 'row',
                     content : [
                         {
-                            block : 'label',
+                            block : 'buying-card',
+                            mix : [ { block : 'row', elem : 'col', elemMods : { l : true } } ],
                             content : [
+                                {
+                                    block : 'label',
+                                    content : [
+                                        {
+                                            elem : 'text',
+                                            content : [
+                                                'legacy'
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem : 'caption',
+                                    content : [
+                                        'Go it solo'
+                                    ]
+                                },
                                 {
                                     elem : 'text',
                                     content : [
-                                        'legacy'
+                                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                                    ]
+                                },
+                                {
+                                    block : 'button',
+                                    text : 'buy now $9'
+                                },
+                                {
+                                    block : 'icons',
+                                    content : [
+                                        'apple', 'win'
                                     ]
                                 }
                             ]
                         },
                         {
-                            elem : 'caption',
+                            block : 'buying-card',
+                            mix : [ { block : 'row', elem : 'col', elemMods : { l : true } } ],
                             content : [
-                                'Go it solo'
-                            ]
-                        },
-                        {
-                            elem : 'text',
-                            content : [
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-                            ]
-                        },
-                        {
-                            block : 'button',
-                            text : 'buy now $9'
-                        },
-                        {
-                            block : 'icons',
-                            content : [
-                                'apple', 'win'
-                            ]
-                        }
-                    ]
-                },
-                {
-                    block : 'buying-card',
-                    mix : [ { block : 'row', elem : 'col', elemMods : { l : true } } ],
-                    content : [
-                        {
-                            block : 'label',
-                            content : [
+                                {
+                                    block : 'label',
+                                    content : [
+                                        {
+                                            elem : 'text',
+                                            content : [
+                                                'Most Popular'
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem : 'caption',
+                                    content : [
+                                        'Team Plan'
+                                    ]
+                                },
                                 {
                                     elem : 'text',
                                     content : [
-                                        'legacy'
+                                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                                    ]
+                                },
+                                {
+                                    block : 'button',
+                                    text : 'buy now $18'
+                                },
+                                {
+                                    block : 'icons',
+                                    content : [
+                                        'apple', 'win'
                                     ]
                                 }
-                            ]
-                        },
-                        {
-                            elem : 'caption',
-                            content : [
-                                'Go it solo'
-                            ]
-                        },
-                        {
-                            elem : 'text',
-                            content : [
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-                            ]
-                        },
-                        {
-                            block : 'button',
-                            text : 'buy now $18'
-                        },
-                        {
-                            block : 'icons',
-                            content : [
-                                'apple', 'win'
                             ]
                         }
                     ]
