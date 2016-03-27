@@ -573,6 +573,69 @@ module.exports = {
                     ]
                 }
             ]
+        },
+        {
+            block : 'footer',
+            content : [
+                {
+                    block : 'row',
+                    content : [
+                        {
+                            elem : 'col',
+                            elemMods : { lw : 6 },
+                            content : [
+                                {
+                                    block : 'footer',
+                                    elem : 'caption',
+                                    content : [
+                                        'Get in touch'
+                                    ]
+                                },
+                                {
+                                    block : 'footer',
+                                    elem : 'text',
+                                    content : [
+                                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            elem : 'col',
+                            elemMods : { lw : 1 },
+                            content : [
+
+                            ]
+                        },
+                        {
+                            elem : 'col',
+                            elemMods : { lw : 5 },
+                            content : [
+                                {
+                                    block : 'footer',
+                                    elem : 'caption',
+                                    content : [
+                                        'Stay in touch'
+                                    ]
+                                },
+                                {
+                                    block : 'input',
+                                    mix : [ { block : 'footer', elem : 'email' } ],
+                                    placeholder : 'Type e-mail here'
+                                },
+                                {
+                                    block : 'button',
+                                    mix : [ { block : 'footer', elem : 'email-button' } ],
+                                    icon : {
+                                        block : 'icon',
+                                        mods : { social : 'twitter' }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 };
