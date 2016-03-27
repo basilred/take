@@ -1,0 +1,11 @@
+block('icons')(
+    content()(function () {
+        return this.ctx.content.map(function (item) {
+            return {
+                block : 'icon',
+                mods: { [item] : true },
+                mix : { block : 'icons', elem : 'icon' }
+            };
+        });
+    })
+);
