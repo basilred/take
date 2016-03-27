@@ -536,6 +536,7 @@ module.exports = {
                             content : [
                                 {
                                     block : 'label',
+                                    mods : { popular : true },
                                     content : [
                                         {
                                             elem : 'text',
