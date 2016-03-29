@@ -1,13 +1,128 @@
 .footer__email
-    & .input__control
-        box-sizing border-box
+{
+    display: inline-block;
 
-        padding 16px
-        border none
+    .input__box
+    {
+        position: relative;
 
-        width 85%
-        height 58px
+        display: block;
 
-        background-color #f6f7fa
+        user-select: none;
 
-        font-size 16px
+        background: #f6f7fa;
+    }
+
+    .input__control
+    {
+        font-family: inherit;
+        font-size: 100%;
+
+        box-sizing: border-box;
+        width: 100%;
+        height: 58px;
+        margin: 0;
+
+        border: 0;
+
+        -webkit-appearance: none;
+
+        &::-ms-clear
+        {
+            display: none;
+        }
+
+        &::-webkit-search-decoration
+        {
+            -webkit-appearance: none;
+        }
+
+        &::-webkit-search-cancel-button
+        {
+            display: none;
+        }
+    }
+
+    .input__clear
+    {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+
+        display: none;
+
+        margin: 0;
+        padding: 0;
+
+        user-select: none;
+
+        &:after
+        {
+            font-size: 140%;
+            font-weight: bold;
+            line-height: 1;
+
+            display: block;
+
+            width: 1.2em;
+
+            content: '×';
+            text-align: center;
+        }
+
+        &_visible
+        {
+            display: block;
+
+            cursor: pointer;
+
+            opacity: 0.2;
+
+            &:hover
+            {
+                opacity: 1;
+            }
+        }
+    }
+
+    &.input_disabled
+    {
+        opacity: 0.6;
+
+        .input__control
+        {
+            resize: none;
+        }
+
+        .input__clear
+        {
+            display: none;
+        }
+
+        .input__box,
+        .input__control
+        {
+            cursor: auto;
+        }
+    }
+
+    &.input_width_available
+    {
+        width: 100%;
+    }
+
+    &.input_focused
+    {
+        .input__box
+        {
+            box-shadow: 0 0 5px 1px #fc0;
+        }
+    }
+
+    &.input_focused .input__control:focus
+    {
+        outline: none;
+    }
+}
