@@ -255,7 +255,8 @@ module.exports = {
                 },
                 {
                     block : 'card',
-                    url : '../../common.blocks/card/start.jpg',
+                    // url : '../../common.blocks/card/start.jpg',
+                    color : '#f5989d',
                     content : [
                         {
                             elem : 'header',
