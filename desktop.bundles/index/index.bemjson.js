@@ -619,17 +619,33 @@ module.exports = {
                                     ]
                                 },
                                 {
-                                    block : 'input',
-                                    mix : [ { block : 'footer', elem : 'email' } ],
-                                    placeholder : 'Type e-mail here'
-                                },
-                                {
-                                    block : 'button',
-                                    mix : [ { block : 'footer', elem : 'email-button' } ],
-                                    icon : {
-                                        block : 'icon',
-                                        mods : { social : 'twitter' }
-                                    }
+                                    block : 'subscribe',
+                                    content : [
+                                        {
+                                            elem : 'input',
+                                            content : [
+                                                {
+                                                    block : 'input',
+                                                    mix : [ { block : 'footer', elem : 'email' } ],
+                                                    mods : { width : 'available' },
+                                                    placeholder : 'Type e-mail here'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            elem : 'button',
+                                            content : [
+                                                {
+                                                    block : 'button',
+                                                    mix : [ { block : 'footer', elem : 'email-button' } ],
+                                                    icon : {
+                                                        block : 'icon',
+                                                        url : '../../common.blocks/footer/__email-button/footer__email-button.svg'
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             ]
                         }
