@@ -141,7 +141,7 @@ module.exports = {
                 },
                 {
                     block : 'card',
-                    url : '../../common.blocks/card/clients.jpg',
+                    url : borschik.link('../../common.blocks/card/clients.jpg'),
                     content : [
                         {
                             elem : 'header',
@@ -201,7 +201,7 @@ module.exports = {
                 {
                     block : 'card',
                     mods : { size : 'double' },
-                    url : '../../common.blocks/card/sign.jpg',
+                    url : borschik.link('../../common.blocks/card/sign.jpg'),
                     content : [
                         {
                             elem : 'header',
@@ -640,7 +640,7 @@ module.exports = {
                                                     mix : [ { block : 'footer', elem : 'email-button' } ],
                                                     icon : {
                                                         block : 'icon',
-                                                        url : '../../common.blocks/footer/__email-button/footer__email-button.svg'
+                                                        url : borschik.link('../../common.blocks/footer/__email-button/footer__email-button.svg')
                                                     }
                                                 }
                                             ]
