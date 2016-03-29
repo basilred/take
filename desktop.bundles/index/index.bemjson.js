@@ -598,6 +598,69 @@ module.exports = {
                                     content : [
                                         'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
                                     ]
+                                },
+                                {
+                                    block : 'row',
+                                    mix : [ { block : 'footer', elem : 'menu-stack' } ],
+                                    content : [
+                                        {
+                                            elem : 'col',
+                                            elemMods : { lw : 4 },
+                                            content : [
+                                                {
+                                                    block : 'footer',
+                                                    elem : 'caption',
+                                                    content : [
+                                                        'Resources'
+                                                    ]
+                                                },
+                                                {
+                                                    block : 'links',
+                                                    content : [
+                                                        'Tour', 'Customers', 'Pricing and Plans', 'New Features', 'Education'
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { lw : 4 },
+                                            content : [
+                                                {
+                                                    block : 'footer',
+                                                    elem : 'caption',
+                                                    content : [
+                                                        'Features'
+                                                    ]
+                                                },
+                                                {
+                                                    block : 'links',
+                                                    content : [
+                                                        'Tour', 'Customers', 'Pricing and Plans', 'New Features', 'Education'
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem : 'col',
+                                            elemMods : { lw : 4 },
+                                            content : [
+                                                {
+                                                    block : 'footer',
+                                                    elem : 'caption',
+                                                    content : [
+                                                        'How To\'s'
+                                                    ]
+                                                },
+                                                {
+                                                    block : 'links',
+                                                    content : [
+                                                        'Tour', 'Customers', 'Pricing and Plans', 'New Features', 'Education'
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             ]
                         },
