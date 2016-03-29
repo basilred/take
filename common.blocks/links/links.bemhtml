@@ -1,0 +1,12 @@
+block('links')(
+    content()(function () {
+        return this.ctx.content.map(function (item) {
+            return {
+                block : 'link',
+                mods : { pseudo : true },
+                url : '#',
+                content : item
+            };
+        })
+    })
+);
