@@ -644,6 +644,12 @@ module.exports = {
                                                     }
                                                 }
                                             ]
+                                        },
+                                        {
+                                            elem : 'text',
+                                            content : [
+                                                'We don\'t send spam. Actually, who are we kiding, we\'ll spam the shit out of your inbox.'
+                                            ]
                                         }
                                     ]
                                 }
