@@ -40,7 +40,8 @@ module.exports = function(config) {
             // essential
             [enbBemTechs.levels, { levels: levels }],
             [techs.fileProvider, { target: '?.bemjson.js' }],
-            [enbBemTechs.bemjsonToBemdecl],
+            [techs.borschik, { sourceTarget: '?.bemjson.js', destTarget: '?.bemjson.borschik.js', freeze: true, minify: false }],
+            [enbBemTechs.bemjsonToBemdecl, { source: '?.bemjson.borschik.js' }],
             [enbBemTechs.deps],
             [enbBemTechs.files],
 
@@ -71,7 +72,7 @@ module.exports = function(config) {
             [techs.bemhtml, { sourceSuffixes: ['bemhtml', 'bemhtml.js'] }],
 
             // html
-            [techs.bemjsonToHtml],
+            [techs.bemjsonToHtml, { bemjsonFile: '?.bemjson.borschik.js' }],
 
             // client bemhtml
             [enbBemTechs.depsByTechToBemdecl, {
