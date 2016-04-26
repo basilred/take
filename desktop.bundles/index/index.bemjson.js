@@ -674,6 +674,7 @@ module.exports = {
                         {
                             elem : 'col',
                             elemMods : { lw : 5 },
+                            mix : [ { block : 'footer', elem : 'email-form' } ],
                             content : [
                                 {
                                     block : 'footer',
